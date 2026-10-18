@@ -1,0 +1,7 @@
+torch>=2.1
+transformers>=4.46
+datasets>=2.19
+accelerate>=0.26
+sacrebleu>=2.4
+gradio>=4.0
+huggingface_hub>=0.23

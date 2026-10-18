@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 데이터: 원본·가공 데이터는 라이선스 때문에 저장소에 올리지 않음 (예시 데이터만 포함)
+data/raw/
+data/processed/
+
+# 학습 결과물: 모델 가중치는 Hugging Face Hub에 올림
+outputs/
+results/
+*.bin
+*.safetensors
+*.pt
+
+# 기타
+.DS_Store
+.env
